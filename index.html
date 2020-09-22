@@ -161,7 +161,7 @@
                   <div class="col-lg-2" style="margin: 3px;">
                     <button id="lang" style="margin-top:-15px; width: 65px;height: 35px; background-color: rgb(245, 241, 241);"> EN </button>                      
                       
-                    <img src="img/usa.png" width="55px" height="35px " style="margin-top:-5px;">
+                    <div id="imag1" style="float: right;"><img src=img/yem.jpg width=55px height=35px  style=margin-top:-5px;></div>
                   </div>
                 </div>
 
@@ -177,10 +177,11 @@
                     </div>
                   </div>
                   <div class="col-lg-3">
-                    <select name="lang" id="" style="width: 60%;direction: rtl;margin-left: 15px;">
-                      <option value="ar">جميع المدن <img src="" width="30px" height="30px"></option>
-                      <option value="en">AR</option>
-                      <option value="en">EN</option>
+                    <select name="lang" id="cities1" style="width: 60%;direction: rtl;margin-left: 15px;">
+                      <option value="1">جميع المدن <img src="" width="30px" height="30px"></option>
+                      <option value="yem">yem</option>
+                      <option value="uk">uk</option>
+                      <option value="usa">usa</option>
                     </select>
                     <img src="" width="30px" height="30px">
                   </div>
@@ -823,6 +824,25 @@
         navbar.classList.remove("sticky");
       }
     }
+  </script>
+  <!--js of change options cities-->
+  <script>
+    var imgs_div1 = document.getElementById("imag1");
+    var cities1 = document.getElementById("cities1");
+    cities1.addEventListener("change", function () {
+      if (cities1.value == "yem") {
+        imgs_div1.innerHTML = "<img src=img/yem.jpg width=55px height=35px  style=margin-top:-5px;>";
+      }
+      else if (cities1.value == "uk") {
+        imgs_div1.innerHTML = "<img src=img/uk.png width=55px height=35px  style=margin-top:-5px;>";
+      }
+      else if (cities1.value == "usa") {
+        imgs_div1.innerHTML = "<img src=img/usa.png width=55px height=35px  style=margin-top:-5px;>";
+      }
+      else {
+        imgs_div1.innerHTML = "";
+      }
+    });
   </script>
 
   <!--js for part1-->
