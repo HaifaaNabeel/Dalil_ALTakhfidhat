@@ -1,0 +1,212 @@
+* {
+	padding:0;
+	margin:0;
+}
+button
+{ 
+    padding: 0px;
+    margin: 0px;
+}
+.but{
+    padding-left: 0px;padding-right:0px;
+}
+.but1{
+    margin-left: 15px;
+}
+.searchbut
+{
+    width:90%; margin-left:45px; padding:4px; background-color: brown; color: white;
+}
+.menus{
+    background-color: black;opacity: .8; width: 100%; margin: 10px; margin-top:-10px; margin-right: -80px; padding: 10px;
+}
+.sildebut{
+    width:210px; color: darkcyan; font-size:30px;padding: 18px; border-radius: 12px;
+    margin-left: 860px;
+}
+.imgslid {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(43, 121, 151);
+    opacity: 1;
+    height: 100vh;
+    max-height: 50vh; 
+    background-position-y: 50px;
+  }
+  .imag1{
+    background-image: url("../img/silder.jpg");
+    background-position-x: left;
+    background-position-y: 2px;  
+    background-size: 100% 99%;}
+
+  }
+  .imag2{
+    background-image: url("../img/silder.jpg");
+    background-position-x: left;
+    background-position-y: 2px;  
+    background-size: 100% 99%;} }
+  .imag3{
+    background-image: url("../img/silder.jpg");
+    background-position-x: left;
+    background-position-y: 2px;  
+    background-size: 100% 99%;}
+   
+    .text-light{
+        text-align: right;
+    }
+    .menupart1{
+        text-align: right;
+        direction: rtl;
+    }
+
+
+
+    body {
+        margin: 0;
+        font-size: 28px;
+      }
+      
+      .header {
+        background-color: #f1f1f1;
+        padding: 30px;
+        text-align: center;
+      }
+      
+      #navbar1 {
+        overflow:hidden;
+        background-color: rgb(5, 5, 5);
+        width: 100%;
+      }
+      
+      #navbar1 a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      #navbar1 a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      #navbar1 a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      .content {
+        padding: 16px;
+      }
+      
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .sticky + .content {
+        padding-top: 60px;
+      }
+      .menus{
+        background-color: black;   margin-top: 10px;  
+    }
+    .div-mid{
+      background-color: brown;
+      float: left;
+      width: 454px;
+      height: 5vw;
+      margin: 10px;
+      padding: 10px;
+      padding-left:15px ;
+      font-size: xx-large; color: white; text-align: center;
+    }
+    .div-con1{
+      font-size: larger; direction: rtl; padding:5px;
+    }
+    .div-con{
+      background-color: gainsboro;
+
+    }
+    .div-con-items{
+      background-color: white;
+      padding: 5px 28px;
+      padding-left: ;
+      margin: 23px ;
+    }
+    .but-cont{
+      background-color: brown; color: white;font-size: large; margin-left: 600px;
+    }
+    .con-but-fooler1{
+      background-color: brown; margin: -8px;padding: 0;; color: white; width:55px; height: 30px;
+    } 
+    .con-but-fooler2{
+      background-color: rgb(83, 81, 81); margin:-8px; color: white; width:40px; height: 30px;
+    }
+    .con-but-fooler3{
+      background-color: gainsboro; margin: -2px 9px 10px ;color: brown; width: 100%; height: 30px;
+    }
+    .text-div-but1{
+      font-size: 40px; color: white; background-color: rgb(180, 32, 156); text-align: center;
+    }
+    .text-div-but2{
+      font-size: 40px; color: white; background-color: rgb(199, 38, 177);text-align: center;
+    }
+    .text-div-but3{
+      font-size: 40px; color: white; background-color: black;text-align: center;
+    }
+
+    
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+/* Set a style for all buttons */
+
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
