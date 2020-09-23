@@ -178,6 +178,18 @@
                       <div class="col-lg-9 but2">
                         <input type="search" style="width: 114.5%; padding: 4px;" placeholder="Search">
                       </div>
+                      
+                       <!--change lang-->
+                  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+                  <script type="text/javascript">
+                    jQuery(document).ready(function () {
+                      $('#lang').click(function () {
+                        $('link#style1').attr('href', 'css/styleEN.css');
+                      });
+                    });
+                  </script>
+                      
+                      
                       <div class="col-lg-3 but2">
                         <button class="searchbut"> بـحـث </button>
                       </div>
@@ -1360,15 +1372,7 @@
     </section>
   </footer>
 
-                  <!--change lang-->
-                  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-                  <script type="text/javascript">
-                    jQuery(document).ready(function () {
-                      $('#lang').click(function () {
-                        $('link#style1').attr('href', 'css/styleEN.css');
-                      });
-                    });
-                  </script>
+                 
 
 
 
