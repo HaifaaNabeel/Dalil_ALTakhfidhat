@@ -2,6 +2,9 @@
 	padding:0;
 	margin:0;
 }
+.div-header{
+  direction: ltr;
+}
 button
 { 
     padding: 0px;
@@ -13,9 +16,24 @@ button
 .but1{
     margin-left: 15px;
 }
+.but-add1{
+  background-color: brown;color: white; width: 100%; margin: -15px;
+}
+.but-sing{
+  background-color:white;color: brown; width: 120px; margin: -23px -35px;
+}
+.but-log{
+  background-color: gray;color: white; width: 100%; margin: -15px 15px;
+}
+#lang{
+  margin-top:-15px; width: 65px;height: 35px; background-color: rgb(245, 241, 241);
+}
 .searchbut
 {
     width:90%; margin-left:45px; padding:4px; background-color: brown; color: white;
+}
+#cities1{
+  width: 65%;direction: rtl;margin-left: 15px; margin-top: 5px;
 }
 .menus{
     background-color: black;opacity: .8; width: 100%; margin: 10px; margin-top:-10px; margin-right: -80px; padding: 10px;
@@ -55,6 +73,8 @@ button
     .text-light{
         text-align: right;
     }
+    .par1-menu{float: right;} 
+    .part1-text{float: right; padding: 5px;}
     .menupart1{
         text-align: right;
         direction: rtl;
